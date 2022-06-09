@@ -1,0 +1,166 @@
+body{
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  height: 45rem;
+}
+
+
+
+#navbarContainer{
+  padding: 1% 5%;
+}
+
+#titleContainer{
+  padding: 2% 10%;
+  
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 16px;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.title-img{
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute; 
+}
+
+#features{
+  padding: 7% 16%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1020px){
+  #title{
+    text-align: center;
+    height: fit-content;
+  }
+  .title-img{
+    transform: rotate(0deg);
+    position: static;
+    width: 50%;
+  }
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icon
+{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+  transform: scale(1.5);
+}
+
+#testimonials{
+   background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 16%;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 40px 50px;
+}
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.pricing-card{
+  height: 100%;
+}
+
+.card-header{
+  background-color: #f4667b;
+  color: #fff;
+}
+
+#cta{
+  padding: 7% 16%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta-para{
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+#footer{
+  padding: 7% 16%;
+  text-align: center;
+}
+
+.smart-icon{
+  margin: 20px 10px;
+}
